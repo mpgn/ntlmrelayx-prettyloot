@@ -81,7 +81,7 @@ def password_complexity(data):
 def domain_info(data):
     print('''
 +--------------------------------------+
-| Getting Domain Sid For 172.16.60.205 |
+| Getting Domain Sid For               |
 +--------------------------------------+
 ''')
     print('[+] Domain Name:', data[0]['attributes']['dc'][0])
